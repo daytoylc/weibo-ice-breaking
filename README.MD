@@ -33,6 +33,7 @@ The retrieved IDs will be stored in `data/depressed_ids.txt`.
 Navigate to the `TextClassify_with_BERT-master` folder. You may need to retrain the depression user classifier using the user's posting history data. The input for the classifier should be a combination of the user's historical posts, current posts, and comments to strangers.
 
 ### 3. Crawl User Information and Posts
+This part of the code refers to https://github.com/dataabc/weibo-crawler.
 
 To crawl user information and posts based on the IDs in `depressed_ids.txt`, navigate to the `weibo-user-crawler` folder. You can modify `config.json` according to your needs, focusing on the following three parameters:
 ```json
