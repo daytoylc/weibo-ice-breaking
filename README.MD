@@ -64,6 +64,7 @@ Navigate to the `reply` folder for detailed usage instructions in its `README.md
 - `reply_by_chat4`
 
 ### 6. Multi-Label Classification of Post and Reply Types
+This part of the code refers to https://github.com/yaleimeng/TextClassify_with_BERT.
 
 Navigate to the `multi_label` folder for multi-label classification of post types and reply types.
 
