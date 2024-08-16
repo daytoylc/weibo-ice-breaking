@@ -1,11 +1,11 @@
 from openai import OpenAI
 import os
 
-os.environ["http_proxy"] = "http://127.0.0.1:7890"
-os.environ["https_proxy"] = "http://127.0.0.1:7890"
+os.environ["http_proxy"] = ""
+os.environ["https_proxy"] = ""
 
 def reply_by_chatgpt(post):
-    api_key = "sk-7XFxuOWXwkmFaOjfA71e05C132564fCbB7820eBeB38354F9"
+    api_key = ""
     api_base = "https://api.xi-ai.cn/v1"
     client = OpenAI(api_key=api_key, base_url=api_base)
 
